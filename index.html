@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <title>玉置浩二 - 歌詞</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="sticky-header">
+    <h1 id="song-title">あこがれ</h1>
+    <span class="song-counter" id="song-counter">1 / 8</span>
+  </header>
+
+  <main class="lyrics-content" id="lyrics-content">
+    <div class="lyrics-container" id="lyrics-container">
+      <!-- 歌词内容将由 JavaScript 动态填充：日文+中文逐行对照 -->
+    </div>
+  </main>
+
+  <nav class="navigation">
+    <button class="nav-btn" id="prev-btn" aria-label="上一首">
+      <span class="nav-icon">←</span>
+      <span class="nav-text">前へ</span>
+    </button>
+    <button class="nav-btn" id="next-btn" aria-label="下一首">
+      <span class="nav-text">次へ</span>
+      <span class="nav-icon">→</span>
+    </button>
+  </nav>
+
+  <script src="app.js"></script>
+</body>
+</html>

@@ -1,0 +1,20 @@
+{
+  "name": "kiro",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npx serve .",
+    "dev": "npx serve ."
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "fast-check": "^4.5.3"
+  },
+  "dependencies": {
+    "@antv/infographic": "^0.2.3"
+  }
+}
